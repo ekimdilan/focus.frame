@@ -1,10 +1,10 @@
-body {
+.dark-theme {
   background-color: #121212;
   margin: 0;
   font-family: sans-serif;
 }
 
-header {
+.header {
   background-color: #121212;
   color: #fff;
   padding: 10px 0;
