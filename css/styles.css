@@ -173,21 +173,22 @@
   height: 240px;
   padding: 50px;
 }
-
-.about-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-}
 .about-image {
   width: 240px;
   height: 560px;
   border-radius: 1000px;
   transform: rotate(90deg);
-  margin-left: 370px;
 }
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-right: 370px;
+}
+
 .about-text-first {
+  color: #fff;
   max-width: 314px;
   max-height: 220px;
   font-size: 16px;
@@ -197,6 +198,7 @@
 }
 
 .about-text-second {
+  color: #fff;
   max-width: 276px;
   max-height: 215px;
   font-size: 16px;
