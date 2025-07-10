@@ -142,7 +142,7 @@
   color: #fff;
 }
 
-.about-us {
+.about-title {
   text-indent: 50px;
   color: white;
   font-size: 30px;
@@ -154,16 +154,22 @@
 }
 
 .about-container {
-  display: flex;
+  width: 100%;
   max-width: 1240px;
-  max-height: 344px;
-  flex-direction: row;
-  width: 1240px;
-  height: 600px;
-  margin-top: 150px;
+  margin: 40px auto;
+  padding: 40px;
   color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
 .about-image {
   width: 240px;
   height: 560px;
