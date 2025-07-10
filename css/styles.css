@@ -176,6 +176,8 @@
 .about-image {
   width: 240px;
   height: 560px;
+  margin: 0 40px 0 0;
+  object-fit: cover;
   border-radius: 1000px;
   transform: rotate(90deg);
 }
