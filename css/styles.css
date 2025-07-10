@@ -145,6 +145,8 @@
 
 .about-container {
   display: flex;
+  max-width: 1240px;
+  max-height: 344px;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
@@ -170,7 +172,6 @@
   margin-bottom: 20px;
   width: 1240px;
   height: 560px;
-  background-color: #1d1d1d;
   border-radius: 30px;
   padding: 40px;
 }
@@ -183,7 +184,6 @@
 }
 .about-image {
   width: 240px;
-  height: 560px;
   border-radius: 1000px;
   transform: rotate(90deg);
 }
