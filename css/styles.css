@@ -116,18 +116,24 @@
   transition: transform 0.3s ease;
 }
 
-.about-container {
+.panel-container {
   display: flex;
   justify-content: center;
   margin: 20px;
 }
 
-.about-header {
+.panel-header {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 59px;
   color: #bea69e;
+  border: 1px solid #e7e9fc;
+  border-radius: 50px;
+}
+
+.panel-highlight {
+  color: #fff;
 }
 
 .header-us {
