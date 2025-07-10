@@ -126,7 +126,7 @@
   text-align: center;
   padding: 10px;
   font-weight: normal;
-  font-size: 59px;
+  font-size: 50px;
   color: #bea69e;
   border: 1px solid #e7e9fc;
   border-radius: 50px;
@@ -136,20 +136,30 @@
   color: #fff;
 }
 
-.header-us {
+.about-us {
   text-indent: 50px;
   color: white;
   font-size: 30px;
 }
 
-.des-about {
+.about-highlight {
+  color: #bea69e;
+}
+
+.about-container {
   display: flex;
   flex-direction: row;
   margin: 50px;
   color: white;
 }
 
-.des-text {
+.about-image {
+  width: 240px;
+  height: 560px;
+  border-radius: 1000px;
+  transform: rotate(90deg);
+}
+.about-text {
   margin: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
