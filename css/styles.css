@@ -90,11 +90,17 @@
 }
 
 .hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 397px;
+  height: 520px;
+  object-fit: contain;
   border-radius: 12px;
 }
+
+.highlight {
+  color: #bea69e;
+  font-style: italic;
+}
+
 .hero-description {
   margin: 10px 50px;
   font-size: 20px;
