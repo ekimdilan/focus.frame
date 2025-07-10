@@ -131,10 +131,11 @@
   text-align: center;
   padding: 10px;
   font-weight: normal;
-  font-size: 50px;
+  font-size: 59px;
+  line-height: 64px;
+  letter-spacing: -2%;
+  text-transform: uppercase;
   color: #bea69e;
-  border: 1px solid #e7e9fc;
-  border-radius: 50px;
 }
 
 .panel-highlight {
@@ -145,6 +146,7 @@
   text-indent: 50px;
   color: white;
   font-size: 30px;
+  margin-top: 150px;
 }
 
 .about-highlight {
