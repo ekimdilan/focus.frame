@@ -149,6 +149,8 @@
 .about-container {
   display: flex;
   flex-direction: row;
+  width: 1240px;
+  height: 600px;
   margin: 50px;
   color: white;
 }
@@ -160,6 +162,7 @@
   transform: rotate(90deg);
 }
 .about-text {
+  width: 630px;
   margin: 20px;
   font-size: 16px;
 }
