@@ -156,13 +156,12 @@
 }
 
 .about-image {
-  width: 240px;
-  height: 560px;
-  border-radius: 1000px;
-  transform: rotate(90deg);
+  width: 120px;
+  height: 280px;
+  border-radius: 50%;
 }
 .about-text {
   width: 630px;
   margin: 20px;
-  font-size: 16px;
+  font-size: 8px;
 }
