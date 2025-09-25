@@ -178,8 +178,8 @@
   padding: 50px;
 }
 .about-image {
-  width: 240px;
-  height: 560px;
+  width: 100px;
+  height: 50px;
   object-fit: cover;
   border-radius: 1000px;
   transform: rotate(90deg);
