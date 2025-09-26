@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .dark-theme {
   background-color: #121212;
   margin: 0;
@@ -207,6 +213,7 @@
   width: 1240px;
   height: 562px;
   margin-left: 100px;
+  margin-top: 494px;
 }
 
 .our-courses-header {
@@ -226,6 +233,7 @@
   color: white;
 }
 .our-courses-highlight {
+  font-size: 48px;
   color: #bea69e;
 }
 
@@ -236,4 +244,142 @@
   line-height: 20px;
   color: #ffffff;
   letter-spacing: -2%;
+}
+
+.our-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1240px;
+  height: 452px;
+  margin-top: 100px;
+}
+
+.course-card{
+  width: 400px;
+  height: 452px;
+  background-color: #1d1d1d;
+  border: 1px solid #060707;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.course-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 336px;
+  height: 32px;
+  padding-top: 32px;
+  padding-left: 32px;
+  gap: 290px;
+}
+
+.course-number{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.course-image-wrapper{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #777777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 6px;
+}
+
+.course-image{
+  width: 20px;
+  height: 20px;
+  padding: 6px 6px;
+  background-color: #777777;
+}
+
+.course-title{
+  width: 265px;
+  height: 64px;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin: 32px 32px;
+}
+
+.course-description{
+  width: 336px;
+  height: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  color: #FFFFFF80;
+  margin: 294px 32px;
+}
+
+.mentors-title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 54px;
+  letter-spacing: -4%;
+  color: white;
+  margin-top: 712px;
+}
+
+.mentors-highlight {
+  color: #bea69e;
+}
+
+.mentors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1034px;
+  max-height: 250px;
+  margin-top: 104px;
+  margin-left:100px;
+}
+
+.mentor-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.mentor-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.mentor-name {
+  width: 174px;
+  height: 32px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mentor-bio {
+  width: 149px;
+  height: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+  color: #FFFFFF80;
+  text-align: center;
+  margin-top: 8px;
 }
