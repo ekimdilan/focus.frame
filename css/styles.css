@@ -140,7 +140,9 @@
   height: 520px;
   object-fit: contain;
   margin-top:80px;
-  padding-left:743
+  padding-left:743px;
+  padding-right:100px;
+  background-color: #1D1D1D;
 }
 
 
