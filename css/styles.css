@@ -32,7 +32,7 @@
   border-radius: 12px;
   display:flex;
   align-items:center;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 .header-logo {
@@ -53,7 +53,7 @@
   align-items: center;
   font-size:14px;
   list-style: none;
-  padding-right: 50px;
+  gap:40px;
 }
 
 .menu li {
@@ -85,6 +85,7 @@
   display: flex;
   align-items: center;
   white-space: nowrap;
+  margin-right:100px;
 }
 
 .hero-container {
