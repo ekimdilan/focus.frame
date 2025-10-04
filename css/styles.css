@@ -49,14 +49,14 @@
 
 .menu-list {
   display: flex;
-  max-weight:550px;
-  max-height:18px;
+  white-space: nowrap;
+  max-width: 550px;
+  max-height: 18px;
   align-items: center;
-  gap:40px;
-  font-size:14px;
+  gap: 40px;
+  font-size: 14px;
   list-style: none;
   padding-right: 50px;
-  padding-top:21px;
 }
 
 .menu li {
