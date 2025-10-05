@@ -372,6 +372,7 @@
 
 .mentor-image-container {
   display: flex;
+  flex-direction:row;
   width:1034px;
   height:250px;
   margin:50px 100px 0 100px;
@@ -381,6 +382,8 @@
 }
 
 .mentor-images{
+  flex-direction: column;
+  align-items: center;
   display:flex;
   max-width:180px;
   max-height:250px;
