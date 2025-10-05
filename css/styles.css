@@ -373,7 +373,7 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 50px;
-  gap: 100px; /* 100 yerine 80 daha dengeli */
+  gap: 80px; /* 100 yerine 80 daha dengeli */
 }
 
 .mentor-images {
@@ -400,7 +400,6 @@
 }
 
 .mentor-name {
-  white-space: nowrap;
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
