@@ -377,7 +377,6 @@
   width:1034px;
   height:250px;
   margin:50px 100px 0 100px;
-  flex-direction: row;
   align-items: center;
   gap: 100px;
 }
@@ -406,7 +405,6 @@
   line-height: 32px;
   letter-spacing: 0%;
   color: #FFFFFF;
-  text-align: center;
 }
 
 .mentor-bio {
@@ -416,7 +414,6 @@
   line-height: 18px;
   letter-spacing: -2%;
   color: #FFFFFF80;
-  text-align: center;
   margin-top: 8px;
 }
 
