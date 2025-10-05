@@ -396,15 +396,14 @@
 }
 
 .mentor-info {
-  max-width:174px;
-  max-height: 54px;
   display: flex;
-  margin-top:16px;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .mentor-name {
+  margin-top: 16px;
+  white-space: nowrap;
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
