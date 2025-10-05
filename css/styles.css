@@ -7,7 +7,6 @@
 h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
   padding: 0;
-  white-space: nowrap;
 }
 .dark-theme {
   background-color: #121212;
@@ -405,6 +404,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .mentor-name {
+  white-space: nowrap;
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
