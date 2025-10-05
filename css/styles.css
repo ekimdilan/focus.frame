@@ -350,21 +350,17 @@
 .mentors-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 1240px;
-  height: 354px;
   margin: 150px auto 0 auto;
 }
 
 .mentors-title {
-  width:266px;
-  height:54px;
-  white-space: nowrap;
+  width: 266px;
   font-size: 48px;
   font-weight: 500;
   line-height: 54px;
-  letter-spacing: -4%;
   color: white;
+  white-space: nowrap;
 }
 
 .mentors-highlight {
@@ -373,19 +369,19 @@
 
 .mentor-image-container {
   display: flex;
-  flex-direction:row;
-  justify-content: space-around;
-  width:1034px;
-  height:250px;
-  margin-top:50px;  
-  gap: 100px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  gap: 80px; /* 100 yerine 80 daha dengeli */
 }
 
 .mentor-images {
   display: flex;
   flex-direction: column;
+  align-items: center; /* içerik ortalansın */
+  text-align: center;
   max-width: 180px;
-  max-height: 250px;
 }
 
 .mentor-image {
@@ -398,26 +394,26 @@
 .mentor-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  gap: 8px; /* name ve bio arası */
+  margin-top: 16px; /* resimle name arası */
 }
 
 .mentor-name {
-  margin-top: 16px;
-  white-space: nowrap;
   font-size: 28px;
   font-weight: 500;
   line-height: 32px;
-  letter-spacing: 0%;
   color: #FFFFFF;
+  margin: 0; /* tarayıcı default boşluğunu sıfırla */
 }
 
 .mentor-bio {
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: -2%;
   color: #FFFFFF80;
-  margin-top: 8px;
+  margin: 0; /* yine default boşlukları sıfırla */
 }
+
 
 .sign-up-container {
   display: flex;
