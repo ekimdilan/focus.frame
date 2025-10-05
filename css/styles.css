@@ -387,7 +387,8 @@
   align-items: center; 
   justify-content: flex-start;
   max-width: 180px;
-  gap: 8px;
+  max-height: 250px;
+  gap: 16px;
   text-align: center;
 }
 
@@ -409,7 +410,7 @@
 }
 
 .mentor-bio {
-  width: 149px;
+  width: 174px;
   height: 18px;
   font-size: 14px;
   line-height: 18px;
