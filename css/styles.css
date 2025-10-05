@@ -381,13 +381,14 @@
   gap: 100px;
 }
 
-.mentor-images{
-  display:flex;
+.mentor-images {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  max-width:180px;
-  max-height:250px;
-  gap:16px;
+  align-items: center; 
+  justify-content: flex-start;
+  max-width: 180px;
+  gap: 8px;
+  text-align: center;
 }
 
 .mentor-image {
