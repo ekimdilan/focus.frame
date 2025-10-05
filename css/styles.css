@@ -376,7 +376,7 @@
   flex-direction:row;
   width:1034px;
   height:250px;
-  margin:50px 100px 0 100px;
+  margin-top:50px;  
   align-items: center;
   gap: 100px;
 }
@@ -384,12 +384,8 @@
 .mentor-images {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  justify-content: flex-start;
   max-width: 180px;
   max-height: 250px;
-  gap: 16px;
-  text-align: center;
 }
 
 .mentor-image {
@@ -397,6 +393,15 @@
   height: 180px;
   object-fit: cover;
   border-radius: 200px;
+}
+
+.mentor-info {
+  max-width:174px;
+  max-height: 54px;
+  display: flex;
+  margin-top:16px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .mentor-name {
